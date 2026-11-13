@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merak — radio i muzika za telefon, TV i auto</title>
+<meta name="description" content="Merak: Ex-YU radio stanice, besplatna muzika i vaša muzika — na telefonu, Android TV-u i u autu (Android Auto). Besplatno.">
+<link rel="icon" href="ikona.png">
+<style>
+  :root { --poz:#0B0F16; --panel:#141C28; --panel2:#1C2638; --tekst:#E8EEF7; --sporedni:#8A97AB; --zlatna:#F2B84B; --plava:#3D8BFF; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "Segoe UI", Roboto, Arial, sans-serif; background: var(--poz); color: var(--tekst); line-height: 1.6; }
+  .omot { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  header { background: radial-gradient(circle at 25% 20%, #1E3A66 0%, var(--poz) 70%); padding: 48px 0 40px; }
+  .vrh { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; }
+  .vrh img { width: 132px; height: 132px; border-radius: 30px; }
+  h1 { font-size: 46px; margin: 0; color: var(--zlatna); letter-spacing: .5px; }
+  .podnaslov { font-size: 19px; color: var(--tekst); margin: 4px 0 0; }
+  .autor { color: var(--sporedni); font-size: 14px; margin-top: 6px; }
+  .dugme { display: inline-block; background: var(--zlatna); color: var(--poz); font-weight: 700; font-size: 20px;
+           padding: 16px 28px; border-radius: 14px; text-decoration: none; margin-top: 26px; }
+  .dugme:hover { filter: brightness(1.08); }
+  .mala { color: var(--sporedni); font-size: 14px; margin-top: 10px; }
+  section { padding: 34px 0; border-top: 1px solid var(--panel2); }
+  h2 { color: var(--zlatna); font-size: 26px; margin: 0 0 16px; }
+  .mreza { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .kartica { background: var(--panel); border-radius: 16px; padding: 18px 20px; }
+  .kartica b { display: block; font-size: 17px; margin-bottom: 4px; }
+  .kartica span { color: var(--sporedni); font-size: 15px; }
+  ol { padding-left: 22px; margin: 8px 0 0; } li { margin: 6px 0; }
+  code { background: var(--panel2); color: var(--zlatna); padding: 2px 8px; border-radius: 6px; font-size: 15px; word-break: break-all; }
+  .slika { max-width: 100%; margin-top: 16px; }
+  footer { color: var(--sporedni); font-size: 14px; padding: 30px 0 40px; border-top: 1px solid var(--panel2); }
+  .verzija { color: var(--sporedni); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="omot">
+    <div class="vrh">
+      <img src="ikona.png" alt="Merak">
+      <div>
+        <h1>Merak</h1>
+        <p class="podnaslov">Ex-YU radio, besplatna muzika i vaša muzika — na telefonu, televizoru i u autu.</p>
+        <p class="autor">Omer Husović, prof.</p>
+      </div>
+    </div>
+    <a class="dugme" id="preuzmi" href="https://github.com/omerhusovic-arch/merak/releases/latest/download/Merak.apk">⬇ Preuzmi Merak (Android)</a>
+    <p class="mala">Besplatno · bez reklama · bez registracije · <span class="verzija" id="verzija">zadnja verzija</span></p>
+  </div>
+</header>
+
+<main class="omot">
+  <section>
+    <h2>Šta Merak nudi</h2>
+    <div class="mreza">
+      <div class="kartica"><b>📻 Radio iz cijele bivše Jugoslavije</b><span>BiH, Hrvatska, Srbija, Crna Gora, Slovenija, Makedonija, Kosovo — po državi i po žanru (narodna, pop, rock, zabavna…).</span></div>
+      <div class="kartica"><b>🎵 Pjesma koja sada svira</b><span>Kod stanica koje to šalju, vidite izvođača i naziv pjesme.</span></div>
+      <div class="kartica"><b>📺 Televizor</b><span>Radi na Android / Google TV-u, s daljinskim. Prozor „Sada svira“ s animacijom.</span></div>
+      <div class="kartica"><b>🚗 Android Auto</b><span>Stanice u autu, tipke na volanu, ♥ za omiljene. Ne preskače stanicu u tunelu.</span></div>
+      <div class="kartica"><b>📱 Muzika s telefona na TV-u</b><span>Pustite muziku s telefona preko televizora, u istoj WiFi mreži.</span></div>
+      <div class="kartica"><b>⏾ Tajmer, omiljene, ujednačen zvuk</b><span>Muzika se sama ugasi, omiljene stanice su na jednom mjestu, sve stanice jednako glasne.</span></div>
+    </div>
+    <img class="slika" src="stanice.png" alt="Stanice u Meraku">
+  </section>
+
+  <section>
+    <h2>Instalacija na telefon</h2>
+    <ol>
+      <li>Na telefonu otvorite ovu stranicu i pritisnite <b>„⬇ Preuzmi Merak“</b>.</li>
+      <li>Kad se preuzme, dodirnite fajl <b>Merak.apk</b>.</li>
+      <li>Telefon pita da li smije instalirati aplikacije iz preglednika — dozvolite (samo prvi put).</li>
+      <li>Pritisnite <b>Instaliraj</b>. Gotovo — Merak je među aplikacijama.</li>
+    </ol>
+    <p class="mala">Telefon može upozoriti da je aplikacija „iz nepoznatog izvora“ — to je zato što Merak nije s Google Play-a. Nove verzije Merak sam ponudi.</p>
+  </section>
+
+  <section>
+    <h2>Instalacija na televizor (Google TV / Android TV)</h2>
+    <ol>
+      <li>Na TV-u u Google Play trgovini instalirajte besplatnu aplikaciju <b>„Downloader“</b> (od AFTVnews).</li>
+      <li>U postavkama TV-a dozvolite Downloaderu da instalira aplikacije (TV to sam ponudi pri prvoj instalaciji).</li>
+      <li>Otvorite Downloader i daljinskim upišite adresu:<br><code>omerhusovic-arch.github.io/merak</code></li>
+      <li>Na stranici koja se otvori kliknite <b>„⬇ Preuzmi Merak“</b>, pa <b>Instaliraj</b>.</li>
+    </ol>
+    <img class="slika" src="baner.png" alt="Merak na TV-u" width="320">
+  </section>
+
+  <section>
+    <h2>Uključivanje u autu (Android Auto)</h2>
+    <p>Android Auto prikazuje samo aplikacije s Google Play-a, osim ako se jednom uključi „Nepoznati izvori“:</p>
+    <ol>
+      <li>Na telefonu: <b>Postavke → Povezani uređaji</b> (ili Aplikacije) <b>→ Android Auto</b>.</li>
+      <li>Na dnu 10 puta dodirnite <b>„Verzija“</b> i potvrdite — uključene su postavke za programere.</li>
+      <li>Gore desno <b>⋮ → Postavke za programere →</b> uključite <b>„Nepoznati izvori“</b>.</li>
+      <li>Ponovo spojite telefon s autom — Merak je među aplikacijama za muziku.</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="omot">
+  Merak · Omer Husović, prof. · Radio stanice: <a href="https://www.radio-browser.info" style="color:var(--plava)">radio-browser.info</a> ·
+  Besplatna muzika: <a href="https://audius.co" style="color:var(--plava)">Audius</a>.
+  Merak ne prikuplja nikakve lične podatke — omiljene stanice i postavke ostaju samo na vašem uređaju.
+</footer>
+
+<script>
+  // ispiši zadnju verziju (iz verzija.json)
+  fetch("verzija.json", { cache: "no-store" }).then(r => r.json()).then(v => {
+    document.getElementById("verzija").textContent = "verzija " + v.versionName;
+  }).catch(() => {});
+</script>
+</body>
+</html>
