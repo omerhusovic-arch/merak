@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "1.21",
-  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.21/Merak.apk",
-  "novo": "Merak sada sam provjerava nove verzije. Slike stanica u Merakovim bojama, muzika s telefona na TV-u, naziv pjesme na radiju."
+  "versionCode": 23,
+  "versionName": "1.22",
+  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.22/Merak.apk",
+  "novo": "Proba 15 dana, zatim otključavanje ključem (jedan ključ za telefon i TV). Kontakt za uplatu je u aplikaciji."
 }
