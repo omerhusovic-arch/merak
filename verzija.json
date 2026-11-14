@@ -1,6 +1,6 @@
 {
-  "versionCode": 23,
-  "versionName": "1.22",
-  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.22/Merak.apk",
-  "novo": "Proba 15 dana, zatim otključavanje ključem (jedan ključ za telefon i TV). Kontakt za uplatu je u aplikaciji."
+  "versionCode": 24,
+  "versionName": "1.23",
+  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.23/Merak.apk",
+  "novo": "Slike stanica i omoti pjesama sada se vide i u autu (Android Auto). Omiljene stanice dobile su nove slike."
 }
