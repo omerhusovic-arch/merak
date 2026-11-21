@@ -1,6 +1,6 @@
 {
-  "versionCode": 28,
-  "versionName": "1.27",
-  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.27/Merak.apk",
-  "novo": "Novo: upozorenje na radare za cijelu Evropu (glasom i u „Sada svira“, radi bez interneta i uz Spotify). Prvo upozorenje na 400 m i zvučni znak pokraj radara. Izbor glasa i „Snimi glas“ za prirodan glas bez interneta. Uključuje se u ⚙ → Upozorenje na radare."
+  "versionCode": 29,
+  "versionName": "1.28",
+  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.28/Merak.apk",
+  "novo": "Upozorenje na radare za cijelu Evropu (glasom i u „Sada svira“, radi bez interneta i uz Spotify). Prvo upozorenje na 400 m, a pokraj radara bip-bip-bip koji se pojačava i prestane kad ga prođete. Izbor glasa i „Snimi glas“. Uključuje se u ⚙ → Upozorenje na radare."
 }
