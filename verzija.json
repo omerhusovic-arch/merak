@@ -1,6 +1,6 @@
 {
-  "versionCode": 30,
-  "versionName": "1.29",
-  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.29/Merak.apk",
-  "novo": "Novo dugme „➕ Ovdje je radar“ (u autu pored ♥, u obavijesti i u Postavkama): radar kojeg Merak ne zna zapamtite jednim pritiskom i odsad upozorava i na njega. Spisak „📌 Moji radari“. Više radara sada ima poznato ograničenje brzine."
+  "versionCode": 34,
+  "versionName": "1.33",
+  "apk": "https://github.com/omerhusovic-arch/merak/releases/download/v1.33/Merak.apk",
+  "novo": "Radari tačniji: Merak upozorava samo kad ste na cesti koja vodi do radara — paralelna ulica, nadvožnjak i suprotni smjer se više ne javljaju, a ako skrenete prije radara, upozorenje nestane. Udaljenost se računa po cesti. Ispravljeno javljanje radara iza kamere. U tunelu natpis „Nema GPS signala“."
 }
